@@ -12,7 +12,7 @@
   <img src="/Documents/AboutP.png" alt="Programmed Fan Tweaker Logo" width="400"/>
 </p>
 
-<h1 align="center">Programmed Fan Tweaker</h1>
+<h1 align="center">程控静扇服务器热管理器</h1>
 
 <h3 align="center">精准、现代化的戴尔服务器风扇控制工具</h3>
 
