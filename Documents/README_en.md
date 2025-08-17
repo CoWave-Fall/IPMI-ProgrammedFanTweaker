@@ -87,11 +87,11 @@ Special thanks to **Google Gemini** for providing invaluable advice and assistan
 
 1.  **Operating System:** Windows 10 or later.
 2.  **.NET Runtime:** [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0).
-3.  **Server:** A server that supports IPMI. (Currently only Dell PowerEdge R730/R730 XD is supported).
+3.  **Server:** A server that supports IPMI. (Currently only PowerEdge R730/R730 XD is supported).
 4.  **IPMI Configuration:** Ensure "IPMI over LAN" is enabled in your server's iDRAC.
 5.  **(Optional) Core Temp:** If you need to obtain CPU temperature via Core Temp, ensure it is running.
 
-Note: The current version only supports and has been tested on Dell PowerEdge R730/R730 XD. Support for other servers will be added in future versions.
+Note: The current version only supports and has been tested on PowerEdge R730/R730 XD. Support for other servers will be added in future versions.
 Note: The current version only supports reading processor temperature via Core Temp. Other methods for obtaining processor temperature will be added in future versions.
 
 ### Installation Steps
