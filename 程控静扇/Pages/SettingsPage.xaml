@@ -1,0 +1,83 @@
+<Page
+    x:Class="程控静扇.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:程控静扇.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Padding="20">
+            <StackPanel Spacing="20">
+                <TextBlock x:Uid="Settings_Title" Text="Settings" Style="{ThemeResource TitleTextBlockStyle}"/>
+                <StackPanel Spacing="10">
+                    <TextBlock x:Uid="Language_Label" Text="Language"/>
+                    <ComboBox x:Name="LanguageComboBox" x:Uid="Language_ComboBox" HorizontalAlignment="Left" MinWidth="200" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="选择应用程序的显示语言。">
+                        <ComboBoxItem Content="English" Tag="en-US"/>
+                        <ComboBoxItem Content="中文" Tag="zh-CN"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Spacing="10" Margin="0,20,0,0">
+                    <TextBlock Text="Theme" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                    <ComboBox x:Name="ThemeComboBox" HorizontalAlignment="Left" MinWidth="200" SelectionChanged="ThemeComboBox_SelectionChanged">
+                        <ComboBoxItem Content="System" Tag="System"/>
+                        <ComboBoxItem Content="Light" Tag="Light"/>
+                        <ComboBoxItem Content="Dark" Tag="Dark"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Spacing="10" Margin="0,20,0,0">
+                    <TextBlock x:Uid="TempSource_Title" Text="CPU 温度数据来源" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                    <ComboBox x:Name="TempSourceComboBox" HorizontalAlignment="Left" MinWidth="200" SelectionChanged="TempSourceComboBox_SelectionChanged">
+                        <ComboBoxItem x:Uid="TempSource_CoreTemp" Content="从CoreTemp同步" Tag="CoreTemp"/>
+                        <ComboBoxItem x:Uid="TempSource_Sockets" Content="从Sockets获取" Tag="Sockets"/>
+                        <ComboBoxItem x:Uid="TempSource_Independent" Content="独立读取（需要管理员权限）" Tag="Independent"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Spacing="10" Margin="0,20,0,0">
+                    <TextBlock x:Uid="AppBehavior_Title" Text="应用程序行为" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                    <ToggleSwitch x:Name="MinimizeToTrayToggle" x:Uid="MinimizeToTray_Toggle" Header="最小化到托盘" OffContent="禁用" OnContent="启用" Toggled="MinimizeToTrayToggle_Toggled" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="当点击最小化按钮时，将应用程序隐藏到系统托盘而不是任务栏。"/>
+                    <ToggleSwitch x:Name="RunOnStartupToggle" x:Uid="RunOnStartup_Toggle" Header="开机自启动" OffContent="禁用" OnContent="启用" Toggled="RunOnStartupToggle_Toggled" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置应用程序在系统启动时自动运行。"/>
+                </StackPanel>
+
+                <StackPanel Spacing="10" Margin="0,20,0,0" >
+                    <TextBlock x:Uid="EmergencyControl_Title" Text="Emergency Fan Control" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                    <ToggleSwitch x:Name="EmergencyControlToggle" x:Uid="EmergencyControl_Toggle" OffContent="Disabled" OnContent="Enabled" Toggled="EmergencyControlToggle_Toggled" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="开启或关闭自动风扇控制功能，当处理器温度过高时自动调整风扇转速。"/>
+
+                    <Grid ColumnDefinitions="Auto,*" HorizontalAlignment="Left" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto" ColumnSpacing="20" RowSpacing="10" MaxWidth="600">
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" x:Uid="SensorName_Label" Text="CPU Temp Sensor Name" VerticalAlignment="Center"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="SensorNameBox" Text="Temp" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="输入CPU温度传感器的名称，例如 'Temp' 或 'CPU Package'" TextChanged="Setting_TextChanged"/>
+                        
+                        <TextBlock Grid.Row="1" Grid.Column="0" x:Uid="HighTempThreshold_Label" Text="High Temp Threshold (°C)" VerticalAlignment="Center"/>
+                        <NumberBox Grid.Row="1" Grid.Column="1" x:Name="HighTempThresholdBox" Value="70" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="5" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置高温阈值（摄氏度），超过此温度将触发风扇加速。" ValueChanged="Setting_ValueChanged"/>
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" x:Uid="CriticalTempThreshold_Label" Text="Critical Temp Threshold (°C)" VerticalAlignment="center"/>
+                        <NumberBox Grid.Row="2" Grid.Column="1" x:Name="CriticalTempThresholdBox" Value="85" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="5" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置临界温度阈值（摄氏度），超过此温度将触发更激进的风扇加速。" ValueChanged="Setting_ValueChanged"/>
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" x:Uid="HighFanMultiplier_Label" Text="High Fan Multiplier (%)" VerticalAlignment="Center"/>
+                        <NumberBox Grid.Row="3" Grid.Column="1" x:Name="HighFanMultiplierBox" Value="120" SpinButtonPlacementMode="Compact" SmallChange="5" LargeChange="10" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置达到高温阈值时风扇转速的乘数百分比。" ValueChanged="Setting_ValueChanged"/>
+
+                        <TextBlock Grid.Row="4" Grid.Column="0" x:Uid="CriticalFanMultiplier_Label" Text="Critical Fan Multiplier (%)" VerticalAlignment="Center"/>
+                        <NumberBox Grid.Row="4" Grid.Column="1" x:Name="CriticalFanMultiplierBox" Value="150" SpinButtonPlacementMode="Compact" SmallChange="5" LargeChange="10" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置达到临界温度阈值时风扇转速的乘数百分比。" ValueChanged="Setting_ValueChanged"/>
+
+                        <TextBlock Grid.Row="5" Grid.Column="0" x:Uid="CooldownHighTemp_Label" Text="Cooldown High Temp (°C)" VerticalAlignment="Center"/>
+                        <NumberBox Grid.Row="5" Grid.Column="1" x:Name="CooldownHighTempBox" Value="75" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="5" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置风扇从高速冷却模式降速的高温点（摄氏度）。" ValueChanged="Setting_ValueChanged"/>
+
+                        <TextBlock Grid.Row="6" Grid.Column="0" x:Uid="CooldownLowTemp_Label" Text="Cooldown Low Temp (°C)" VerticalAlignment="Center"/>
+                        <NumberBox Grid.Row="6" Grid.Column="1" x:Name="CooldownLowTempBox" Value="60" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="5" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置风扇从高速冷却模式降速的低温点（摄氏度）。" ValueChanged="Setting_ValueChanged"/>
+
+                        <TextBlock Grid.Row="7" Grid.Column="0" x:Uid="CheckInterval_Label" Text="Check Interval (seconds)" VerticalAlignment="Center"/>
+                        <NumberBox Grid.Row="7" Grid.Column="1" x:Name="CheckIntervalBox" Value="10" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="5" PointerEntered="OnPointerEntered" PointerExited="OnPointerExited" Tag="设置温度和风扇状态检查的间隔时间（秒）。" ValueChanged="Setting_ValueChanged"/>
+
+                        <Button Grid.Row="8" Grid.Column="1" x:Name="SaveButton" x:Uid="Save_Button" Content="保存并应用" Click="SaveButton_Click" HorizontalAlignment="Right"/>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

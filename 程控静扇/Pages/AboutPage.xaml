@@ -1,0 +1,39 @@
+<Page
+    x:Class="程控静扇.Pages.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:程控静扇.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Padding="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="ms-appx:///Assets/aboutP.png" Width="400" Height="300" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,20,20" Grid.Column="0"/>
+
+        <Image Source="ms-appx:///Assets/aboutA.png" Width="400" Height="300" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,20,20,20" Grid.Column="0"/>
+        <StackPanel Spacing="10" Margin="20,20,20,20" Grid.Column="1" HorizontalAlignment="Right">
+            <TextBlock x:Uid="About_Title" Text="About" Style="{ThemeResource TitleTextBlockStyle}"/>
+            <TextBlock x:Uid="AppDescription" Text="This program is used to control the fan speed of Dell servers."/>
+            <TextBlock x:Uid="Program_Label" Text="Program: Gemini, CoWave-Fall"/>
+            <TextBlock x:Uid="Art_Label" Text="Art: CoWave-Fall"/>
+            <TextBlock x:Uid="License_Label" Text="This project is open sourced under the GPL license."/>
+            <TextBlock x:Uid="LegalInfo_Label" Text="Legal Information:" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0,20,0,0"/>
+            <TextBlock x:Uid="OpenSourceLibraries_Label" Text="Used Open Source Libraries:"/>
+            <TextBlock Text="LiveCharts (MIT License)"/>
+            <TextBlock Text="LibreHardwareMonitor (MPL-2.0 License)"/>
+            <TextBlock Text="Newtonsoft.Json (MIT License)"/>
+            <TextBlock Text="GetCoreTempInfoNET (MIT License)"/>
+            <TextBlock Text="ipmitool (BSD License)"/>
+            <TextBlock x:Uid="Acknowledgements_Title" Text="Acknowledgements" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0,20,0,0"/>
+            <TextBlock x:Uid="Acknowledgements_Text" Text="This project would not have been possible without the work of the following projects:" TextWrapping="Wrap"/>
+            <HyperlinkButton Content="https://github.com/cw1997/dell_fans_controller" NavigateUri="https://github.com/cw1997/dell_fans_controller"/>
+            <HyperlinkButton Content="https://github.com/jiafeng5513/dell_fans_controller" NavigateUri="https://github.com/jiafeng5513/dell_fans_controller"/>
+            <TextBlock x:Uid="Gemini_Text" Text="Special thanks to Google Gemini for the assistance in the development of this project." TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Page>

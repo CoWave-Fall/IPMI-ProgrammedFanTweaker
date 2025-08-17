@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Title.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AppName_Label.Text" xml:space="preserve">
+    <value>应用名称：戴尔风扇控制器</value>
+  </data>
+  <data name="Author_Label.Text" xml:space="preserve">
+    <value>作者：Gemini, CoWave-Fall</value>
+  </data>
+  <data name="FanSpeedControl_Title.Text" xml:space="preserve">
+    <value>风扇速度控制</value>
+  </data>
+  <data name="FanSpeed_Slider.Header" xml:space="preserve">
+    <value>风扇速度 (%)</value>
+  </data>
+  <data name="GetStatus_Button.Content" xml:space="preserve">
+    <value>获取传感器状态</value>
+  </data>
+  <data name="IDRAC_IP_Label.Text" xml:space="preserve">
+    <value>iDRAC IP地址：</value>
+  </data>
+  <data name="Language_Label.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Nav_About.Content" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="Nav_Settings.Content" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Nav_SpeedControl.Content" xml:space="preserve">
+    <value>调速</value>
+  </data>
+  <data name="Password_Label.Text" xml:space="preserve">
+    <value>密码：</value>
+  </data>
+  <data name="SetAuto_Button.Content" xml:space="preserve">
+    <value>启用自动控制</value>
+  </data>
+  <data name="SetManual_Button.Content" xml:space="preserve">
+    <value>设置手动速度</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Status_Title.Text" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Username_Label.Text" xml:space="preserve">
+    <value>用户名：</value>
+  </data>
+  <data name="Version_Label" xml:space="preserve">
+    <value>版本 {0}.{1}.{2}</value>
+  </data>
+  <data name="AppDescription.Text" xml:space="preserve">
+    <value>本程序用于控制受IPMI管理的服务器的风扇转速。当前版本适用于Dell iDRAC</value>
+  </data>
+  <data name="Program_Label.Text" xml:space="preserve">
+    <value>程序：Gemini, CoWave-Fall</value>
+  </data>
+  <data name="Art_Label.Text" xml:space="preserve">
+    <value>美术：CoWave-Fall</value>
+  </data>
+  <data name="License_Label.Text" xml:space="preserve">
+    <value>本软件遵循 GNU General Public License v3.0 开源协议。简而言之，您可以自由地分发、修改和使用本软件，但任何基于此软件的衍生作品也必须同样使用 GPLv3 协议进行开源。</value>
+  </data>
+  <data name="Acknowledgements_Title.Text" xml:space="preserve">
+    <value>致谢</value>
+  </data>
+  <data name="Acknowledgements_Text.Text" xml:space="preserve">
+    <value>没有以下项目的工作，这个项目就不可能实现：</value>
+  </data>
+  <data name="Gemini_Text.Text" xml:space="preserve">
+    <value>特别感谢Google Gemini对本项目开发提供的协助。</value>
+  </data>
+  <data name="AppDisplayName.Text" xml:space="preserve">
+    <value>程控静扇</value>
+  </data>
+  <data name="InfoBar_SettingManual" xml:space="preserve">
+    <value>正在设置手动风扇控制...</value>
+  </data>
+  <data name="InfoBar_SettingManualSuccess" xml:space="preserve">
+    <value>成功将风扇速度设置为 {0}%。</value>
+  </data>
+  <data name="InfoBar_SettingManualFailed" xml:space="preserve">
+    <value>设置风扇速度失败。</value>
+  </data>
+  <data name="InfoBar_DisableAutoFailed" xml:space="preserve">
+    <value>禁用自动风扇控制失败。</value>
+  </data>
+  <data name="InfoBar_EnablingAuto" xml:space="preserve">
+    <value>正在启用自动风扇控制...</value>
+  </data>
+  <data name="InfoBar_EnableAutoSuccess" xml:space="preserve">
+    <value>成功启用自动风扇控制。</value>
+  </data>
+  <data name="InfoBar_EnableAutoFailed" xml:space="preserve">
+    <value>启用自动风扇控制失败。</value>
+  </data>
+  <data name="InfoBar_GettingStatus" xml:space="preserve">
+    <value>正在获取传感器状态...</value>
+  </data>
+  <data name="InfoBar_GetStatusSuccess" xml:space="preserve">
+    <value>成功检索到传感器状态。</value>
+  </data>
+  <data name="InfoBar_GetStatusFailed" xml:space="preserve">
+    <value>检索传感器状态失败。</value>
+  </data>
+  <data name="LanguageChange_Title" xml:space="preserve">
+    <value>需要重启</value>
+  </data>
+  <data name="LanguageChange_Content" xml:space="preserve">
+    <value>语言更改将在重启应用程序后应用。</value>
+  </data>
+  <data name="OK_Button" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="SensorName_Label.Text" xml:space="preserve">
+    <value>CPU温度传感器名称</value>
+  </data>
+  <data name="HighTempThreshold_Label.Text" xml:space="preserve">
+    <value>高温阈值 (°C)</value>
+  </data>
+  <data name="CriticalTempThreshold_Label.Text" xml:space="preserve">
+    <value>临界温度阈值 (°C)</value>
+  </data>
+  <data name="HighFanMultiplier_Label.Text" xml:space="preserve">
+    <value>高风扇转速倍率 (%)</value>
+  </data>
+  <data name="CriticalFanMultiplier_Label.Text" xml:space="preserve">
+    <value>临界风扇转速倍率 (%)</value>
+  </data>
+  <data name="CooldownHighTemp_Label.Text" xml:space="preserve">
+    <value>高温冷却阈值 (°C)</value>
+  </data>
+  <data name="CooldownLowTemp_Label.Text" xml:space="preserve">
+    <value>低温冷却阈值 (°C)</value>
+  </data>
+  <data name="CheckInterval_Label.Text" xml:space="preserve">
+    <value>检查间隔 (秒)</value>
+  </data>
+  <data name="EmergencyControl_Title.Text" xml:space="preserve">
+    <value>自动风扇控制</value>
+  </data>
+  <data name="EmergencyControl_Toggle.OffContent" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="EmergencyControl_Toggle.OnContent" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="Notification_CriticalTemp_Title" xml:space="preserve">
+    <value>临界温度警报</value>
+  </data>
+  <data name="Notification_CriticalTemp_Body" xml:space="preserve">
+    <value>CPU温度已超过 {0}°C。风扇速度已设置为 {1}%。</value>
+  </data>
+  <data name="CommunicatingWithIdrac" xml:space="preserve">
+    <value>正在与iDRAC通信...</value>
+  </data>
+  <data name="CpuTempSeries_Name" xml:space="preserve">
+    <value>CPU 温度</value>
+  </data>
+  <data name="NoFanInfoFound" xml:space="preserve">
+    <value>未找到风扇信息</value>
+  </data>
+  <data name="FetchingFanInfo" xml:space="preserve">
+    <value>正在获取风扇信息...</value>
+  </data>
+  <data name="FetchInfoFailed" xml:space="preserve">
+    <value>获取信息失败</value>
+  </data>
+  <data name="TempSource_Title.Text" xml:space="preserve">
+    <value>CPU 温度数据来源</value>
+  </data>
+  <data name="TempSource_CoreTemp.Content" xml:space="preserve">
+    <value>从CoreTemp同步</value>
+  </data>
+  <data name="TempSource_Sockets.Content" xml:space="preserve">
+    <value>从Sockets获取</value>
+  </data>
+  <data name="TempSource_Independent.Content" xml:space="preserve">
+    <value>独立读取（需要管理员权限）</value>
+  </data>
+  <data name="AppBehavior_Title.Text" xml:space="preserve">
+    <value>应用程序行为</value>
+  </data>
+  <data name="MinimizeToTray_Toggle.Header" xml:space="preserve">
+    <value>最小化到托盘</value>
+  </data>
+  <data name="MinimizeToTray_Toggle.OffContent" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="MinimizeToTray_Toggle.OnContent" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="RunOnStartup_Toggle.Header" xml:space="preserve">
+    <value>开机自启动</value>
+  </data>
+  <data name="RunOnStartup_Toggle.OffContent" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="RunOnStartup_Toggle.OnContent" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Save_Button.Content" xml:space="preserve">
+    <value>保存并应用</value>
+  </data>
+  <data name="Theme_Title.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Theme_System.Content" xml:space="preserve">
+    <value>跟随系统</value>
+  </data>
+  <data name="Theme_Light.Content" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="Theme_Dark.Content" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="AppTitle_Server.Text" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="AppTitle_ThermalManager.Text" xml:space="preserve">
+    <value>热管理器</value>
+  </data>
+  <data name="AppTitle_ProgrammedFanTweaker.Text" xml:space="preserve">
+    <value>「程控静扇」</value>
+    </data>
+</root>

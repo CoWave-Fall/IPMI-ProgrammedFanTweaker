@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "程控静扇 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "程控静扇 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

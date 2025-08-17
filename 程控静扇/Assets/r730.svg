@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="800"
+   viewBox="0 0 1200 800"
+   style="background-color: #ffffff; font-family: sans-serif;"
+   version="1.1"
+   id="svg51"
+   sodipodi:docname="r730.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs51" />
+  <sodipodi:namedview
+     id="namedview51"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.00875"
+     inkscape:cx="688.9715"
+     inkscape:cy="405.94796"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg51" />
+  <title
+     id="title1">Dell PowerEdge R730 Server Internals (Final Symmetrical Layout)</title>
+  <desc
+     id="desc1">A final schematic SVG of a Dell PowerEdge R730, with all risers horizontal and a symmetrically aligned CPU/RAM block.</desc>
+  <g
+     id="chassis">
+    <rect
+       x="50"
+       y="50"
+       width="1100"
+       height="700"
+       fill="#f0f0f0"
+       stroke="#555555"
+       stroke-width="2"
+       id="rect1" />
+    <rect
+       x="55"
+       y="55"
+       width="1090"
+       height="690"
+       fill="#e0e0e0"
+       stroke="#cccccc"
+       stroke-width="1"
+       id="rect2" />
+  </g>
+  <g
+     id="motherboard">
+    <title
+       id="title2">Motherboard</title>
+    <path
+       d="m 120,70 h 880 V 730 H 120 Z"
+       fill="#006847"
+       id="path2"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     id="psu_area">
+    <title
+       id="title3">Power Supply Units (Bottom-Left)</title>
+    <rect
+       x="70"
+       y="480"
+       width="220"
+       height="120"
+       fill="#aaaaaa"
+       stroke="#555"
+       stroke-width="1"
+       id="rect3" />
+    <rect
+       x="250"
+       y="520"
+       width="30"
+       height="40"
+       fill="#444"
+       id="rect4" />
+    <rect
+       x="70"
+       y="605"
+       width="220"
+       height="120"
+       fill="#aaaaaa"
+       stroke="#555"
+       stroke-width="1"
+       id="rect5" />
+    <rect
+       x="250"
+       y="645"
+       width="30"
+       height="40"
+       fill="#444"
+       id="rect6" />
+  </g>
+  <g
+     id="sd_module"
+     transform="translate(-92.193308,342.99876)">
+    <title
+       id="title15">Internal SD Card Module</title>
+    <rect
+       x="400"
+       y="150"
+       width="50"
+       height="60"
+       fill="#3c8af7"
+       stroke="#222222"
+       stroke-width="1"
+       id="rect16" />
+  </g>
+  <g
+     id="cpus_heatsinks"
+     transform="translate(127.88104,-39.653036)">
+    <title
+       id="title16">CPUs and Heatsinks</title>
+    <g
+       id="g53"
+       inkscape:label="CPU2">
+      <rect
+         x="500"
+         y="250"
+         width="150"
+         height="150"
+         fill="#b0b0b0"
+         stroke="#777777"
+         stroke-width="1"
+         id="rect17" />
+      <rect
+         x="510"
+         y="260"
+         width="130"
+         height="130"
+         fill="#d0d0d0"
+         id="rect18" />
+    </g>
+    <g
+       id="g52"
+       inkscape:label="CPU1">
+      <rect
+         x="500"
+         y="480"
+         width="150"
+         height="150"
+         fill="#b0b0b0"
+         stroke="#777777"
+         stroke-width="1"
+         id="rect19" />
+      <rect
+         x="510"
+         y="490"
+         width="130"
+         height="130"
+         fill="#d0d0d0"
+         id="rect20" />
+    </g>
+  </g>
+  <g
+     id="ram_modules"
+     fill="#00a068"
+     stroke="#004d32"
+     stroke-width="0.5"
+     transform="translate(127.88104,-44.609665)">
+    <title
+       id="title20">RAM (DIMM) Modules</title>
+    <g
+       id="ram_bank_top">
+      <rect
+         x="516.25775"
+         y="141.63568"
+         width="120"
+         height="18"
+         id="rect25" />
+      <rect
+         x="516.25775"
+         y="163.63568"
+         width="120"
+         height="18"
+         id="rect26" />
+      <rect
+         x="516.25775"
+         y="185.63568"
+         width="120"
+         height="18"
+         id="rect27" />
+      <rect
+         x="516.25775"
+         y="207.63568"
+         width="120"
+         height="18"
+         id="rect28" />
+    </g>
+    <g
+       id="ram_bank_middle">
+      <rect
+         x="517.70758"
+         y="413.9653"
+         width="120"
+         height="12"
+         id="rect29" />
+      <rect
+         x="517.70758"
+         y="430.94797"
+         width="120"
+         height="12"
+         id="rect30" />
+      <rect
+         x="518.24042"
+         y="446.67905"
+         width="120"
+         height="12"
+         id="rect31" />
+      <rect
+         x="518.24042"
+         y="463.66171"
+         width="120"
+         height="12"
+         id="rect32" />
+    </g>
+    <g
+       id="ram_bank_bottom">
+      <rect
+         x="519.23175"
+         y="644.05206"
+         width="120"
+         height="18"
+         id="rect37" />
+      <rect
+         x="519.23175"
+         y="666.05206"
+         width="120"
+         height="18"
+         id="rect38" />
+      <rect
+         x="519.23175"
+         y="688.05206"
+         width="120"
+         height="18"
+         id="rect39" />
+      <rect
+         x="519.23175"
+         y="710.05206"
+         width="120"
+         height="18"
+         id="rect40" />
+    </g>
+  </g>
+  <g
+     id="drive_backplane">
+    <title
+       id="title46">Hard Drive Backplane</title>
+    <rect
+       x="1050"
+       y="70"
+       width="30"
+       height="660"
+       fill="#006847"
+       stroke="#004d32"
+       stroke-width="1"
+       id="rect46" />
+  </g>
+  <g
+     id="info_tag">
+    <title
+       id="title47">Information Tag</title>
+    <rect
+       x="1080"
+       y="100"
+       width="60"
+       height="180"
+       fill="#e0e0e0"
+       stroke="#999"
+       stroke-width="1"
+       id="rect47" />
+    <rect
+       x="1090"
+       y="110"
+       width="40"
+       height="40"
+       fill="#fff"
+       stroke="#333"
+       id="rect48" />
+    <path
+       d="M 1095,115 h 10 v 10 h -10 z M 1115,115 h 10 v 10 h -10 z M 1095,135 h 10 v 10 h -10 z M 1115,135 h 10 v 10 h -10 z M 1105,125 h 10 v 10 h-10 z"
+       fill="#333"
+       id="path48" />
+    <rect
+       x="1090"
+       y="160"
+       width="40"
+       height="2"
+       fill="#aaa"
+       id="rect49" />
+    <rect
+       x="1090"
+       y="168"
+       width="40"
+       height="2"
+       fill="#aaa"
+       id="rect50" />
+    <rect
+       x="1090"
+       y="176"
+       width="30"
+       height="2"
+       fill="#aaa"
+       id="rect51" />
+  </g>
+  <g
+     id="pcie_risers">
+    <title
+       id="title6">PCIe Risers</title>
+    <g
+       id="pcie_riser_1"
+       transform="translate(0.9913259,21.80917)">
+      <rect
+         x="129.82953"
+         y="89.829529"
+         width="260.34094"
+         height="95.433876"
+         fill="#c0c0c0"
+         stroke="#888888"
+         stroke-width="1"
+         id="rect7" />
+      <rect
+         x="152.0694"
+         y="170.95415"
+         width="280"
+         height="40"
+         fill="#008855"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect10" />
+      <rect
+         x="169.00867"
+         y="174.96283"
+         width="214.64684"
+         height="30"
+         fill="#555555"
+         id="rect11"
+         style="stroke-width:1.89141" />
+    </g>
+    <g
+       id="pcie_riser_2">
+      <path
+         d="m 420,707.75713 330,1.98265 v 27.11276 L 500,734.86989 V 760 h -80 z"
+         fill="#c0c0c0"
+         stroke="#888888"
+         stroke-width="1"
+         id="path11"
+         sodipodi:nodetypes="ccccccc"
+         style="display:inline" />
+      <rect
+         x="518.01733"
+         y="716.72241"
+         width="220"
+         height="10"
+         fill="#3c8af7"
+         id="rect12"
+         style="display:inline" />
+    </g>
+    <g
+       id="pcie_riser_3"
+       transform="translate(-166.54275,-189.34325)"
+       inkscape:label="strcure">
+      <rect
+         x="300.07626"
+         y="444.85941"
+         width="249.84746"
+         height="159.50049"
+         fill="#c0c0c0"
+         stroke="#888888"
+         stroke-width="1.15254"
+         id="rect13" />
+      <rect
+         x="323.0654"
+         y="439.1001"
+         width="281.1059"
+         height="39.817162"
+         fill="#008855"
+         stroke="#333333"
+         stroke-width="1.18284"
+         id="rect15" />
+      <rect
+         x="329.25403"
+         y="440.82898"
+         width="214.64684"
+         height="30"
+         fill="#555555"
+         id="rect11-9"
+         style="font-family:sans-serif;stroke-width:1.89141" />
+    </g>
+    <g
+       id="pcie_riser_3-8"
+       transform="translate(-164.5508,26.597884)"
+       style="font-family:sans-serif"
+       inkscape:label="pcie_riser_3">
+      <rect
+         x="324.05673"
+         y="414.31696"
+         width="281.1059"
+         height="39.817162"
+         fill="#008855"
+         stroke="#333333"
+         stroke-width="1.18284"
+         id="rect15-4" />
+      <rect
+         x="169.65056"
+         y="331.78314"
+         width="214.64684"
+         height="30"
+         fill="#555555"
+         id="rect11-9-5"
+         style="font-family:sans-serif;stroke-width:1.89141"
+         transform="translate(163.56877,85.254027)" />
+    </g>
+  </g>
+  <g
+     id="g54"
+     inkscape:label="fan1"
+     transform="translate(48.547713,246.84014)">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect53"
+       width="90.210655"
+       height="90.210655"
+       x="824.78314"
+       y="-148.69888" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:25.8843;stroke-opacity:0.714859"
+       id="path53"
+       cx="870.87976"
+       cy="-103.59355"
+       r="36.183395" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect54"
+       width="4.9566293"
+       height="90.210655"
+       x="818.83521"
+       y="-148.69888" />
+  </g>
+  <g
+     id="g54-1"
+     inkscape:label="fan2"
+     transform="translate(48.547713,349.78215)"
+     style="font-family:sans-serif">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect53-7"
+       width="90.210655"
+       height="90.210655"
+       x="824.78314"
+       y="-148.69888" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:25.8843;stroke-opacity:0.714859"
+       id="path53-1"
+       cx="870.87976"
+       cy="-103.59355"
+       r="36.183395" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect54-1"
+       width="4.9566293"
+       height="90.210655"
+       x="818.83521"
+       y="-148.69888" />
+  </g>
+  <g
+     id="g54-2"
+     inkscape:label="fan3"
+     transform="translate(48.547713,452.72416)"
+     style="font-family:sans-serif">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect53-76"
+       width="90.210655"
+       height="90.210655"
+       x="824.78314"
+       y="-148.69888" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:25.8843;stroke-opacity:0.714859"
+       id="path53-14"
+       cx="870.87976"
+       cy="-103.59355"
+       r="36.183395" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect54-2"
+       width="4.9566293"
+       height="90.210655"
+       x="818.83521"
+       y="-148.69888" />
+  </g>
+  <g
+     id="g54-22"
+     inkscape:label="fan4"
+     transform="translate(48.547713,555.66616)"
+     style="font-family:sans-serif">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect53-1"
+       width="90.210655"
+       height="90.210655"
+       x="824.78314"
+       y="-148.69888" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:25.8843;stroke-opacity:0.714859"
+       id="path53-6"
+       cx="870.87976"
+       cy="-103.59355"
+       r="36.183395" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect54-8"
+       width="4.9566293"
+       height="90.210655"
+       x="818.83521"
+       y="-148.69888" />
+  </g>
+  <g
+     id="g54-7"
+     inkscape:label="fan5"
+     transform="translate(48.547713,658.60817)"
+     style="font-family:sans-serif">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect53-6"
+       width="90.210655"
+       height="90.210655"
+       x="824.78314"
+       y="-148.69888" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:25.8843;stroke-opacity:0.714859"
+       id="path53-18"
+       cx="870.87976"
+       cy="-103.59355"
+       r="36.183395" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect54-9"
+       width="4.9566293"
+       height="90.210655"
+       x="818.83521"
+       y="-148.69888" />
+  </g>
+  <g
+     id="g54-79"
+     inkscape:label="fan6"
+     transform="translate(48.547713,761.55018)"
+     style="font-family:sans-serif">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect53-5"
+       width="90.210655"
+       height="90.210655"
+       x="824.78314"
+       y="-148.69888" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:25.8843;stroke-opacity:0.714859"
+       id="path53-4"
+       cx="870.87976"
+       cy="-103.59355"
+       r="36.183395" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:13.474;stroke-opacity:0.714859"
+       id="rect54-3"
+       width="4.9566293"
+       height="90.210655"
+       x="818.83521"
+       y="-148.69888" />
+  </g>
+</svg>

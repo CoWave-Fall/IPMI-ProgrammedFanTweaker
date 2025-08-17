@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Title.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AppName_Label.Text" xml:space="preserve">
+    <value>Application Name: Dell Fan Controller</value>
+  </data>
+  <data name="Author_Label.Text" xml:space="preserve">
+    <value>Author: Gemini, CoWave-Fall</value>
+  </data>
+  <data name="FanSpeedControl_Title.Text" xml:space="preserve">
+    <value>Fan Speed Control</value>
+  </data>
+  <data name="FanSpeed_Slider.Header" xml:space="preserve">
+    <value>Fan Speed (%)</value>
+  </data>
+  <data name="GetStatus_Button.Content" xml:space="preserve">
+    <value>Get Sensor Status</value>
+  </data>
+  <data name="IDRAC_IP_Label.Text" xml:space="preserve">
+    <value>iDRAC IP:</value>
+  </data>
+  <data name="Language_Label.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Nav_About.Content" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Nav_Settings.Content" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Nav_SpeedControl.Content" xml:space="preserve">
+    <value>Speed Control</value>
+  </data>
+  <data name="Password_Label.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="SetAuto_Button.Content" xml:space="preserve">
+    <value>Enable Automatic Control</value>
+  </data>
+  <data name="SetManual_Button.Content" xml:space="preserve">
+    <value>Set Manual Speed</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Status_Title.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Username_Label.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="Version_Label" xml:space="preserve">
+    <value>Version {0}.{1}.{2}</value>
+  </data>
+  <data name="AppDescription.Text" xml:space="preserve">
+    <value>This program is used to control the fan speed of the server managed by IPMI. The current version is applicable to Dell iDRAC</value>
+  </data>
+  <data name="Program_Label.Text" xml:space="preserve">
+    <value>Program: Gemini, CoWave-Fall</value>
+  </data>
+  <data name="Art_Label.Text" xml:space="preserve">
+    <value>Art: CoWave-Fall</value>
+  </data>
+    <data name="License_Label.Text" xml:space="preserve">
+    <value>This software is licensed under the GNU General Public License v3.0. In short, you are free to distribute, modify, and use this software, but any derivative works based on it must also be open-sourced under the GPLv3 license.</value>
+  </data>
+  <data name="Acknowledgements_Title.Text" xml:space="preserve">
+    <value>Acknowledgements</value>
+  </data>
+  <data name="Acknowledgements_Text.Text" xml:space="preserve">
+    <value>This project would not have been possible without the work of the following projects:</value>
+  </data>
+    <data name="Gemini_Text.Text" xml:space="preserve">
+    <value>Special thanks to Google Gemini for the assistance in the development of this project.</value>
+  </data>
+  <data name="AppDisplayName.Text" xml:space="preserve">
+    <value>Programmed Fan Tweaker</value>
+  </data>
+  <data name="InfoBar_SettingManual" xml:space="preserve">
+    <value>Setting manual fan control...</value>
+  </data>
+  <data name="InfoBar_SettingManualSuccess" xml:space="preserve">
+    <value>Successfully set fan speed to {0}%.</value>
+  </data>
+  <data name="InfoBar_SettingManualFailed" xml:space="preserve">
+    <value>Failed to set fan speed.</value>
+  </data>
+  <data name="InfoBar_DisableAutoFailed" xml:space="preserve">
+    <value>Failed to disable automatic fan control.</value>
+  </data>
+  <data name="InfoBar_EnablingAuto" xml:space="preserve">
+    <value>Enabling automatic fan control...</value>
+  </data>
+  <data name="InfoBar_EnableAutoSuccess" xml:space="preserve">
+    <value>Successfully enabled automatic fan control.</value>
+  </data>
+  <data name="InfoBar_EnableAutoFailed" xml:space="preserve">
+    <value>Failed to enable automatic fan control.</value>
+  </data>
+  <data name="InfoBar_GettingStatus" xml:space="preserve">
+    <value>Getting sensor status...</value>
+  </data>
+  <data name="InfoBar_GetStatusSuccess" xml:space="preserve">
+    <value>Successfully retrieved sensor status.</value>
+  </data>
+  <data name="InfoBar_GetStatusFailed" xml:space="preserve">
+    <value>Failed to retrieve sensor status.</value>
+  </data>
+  <data name="LanguageChange_Title" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="LanguageChange_Content" xml:space="preserve">
+    <value>The language change will be applied after restarting the application.</value>
+  </data>
+  <data name="OK_Button" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SensorName_Label.Text" xml:space="preserve">
+    <value>CPU Temp Sensor Name</value>
+  </data>
+  <data name="HighTempThreshold_Label.Text" xml:space="preserve">
+    <value>High Temp Threshold (°C)</value>
+  </data>
+  <data name="CriticalTempThreshold_Label.Text" xml:space="preserve">
+    <value>Critical Temp Threshold (°C)</value>
+  </data>
+  <data name="HighFanMultiplier_Label.Text" xml:space="preserve">
+    <value>High Fan Multiplier (%)</value>
+  </data>
+  <data name="CriticalFanMultiplier_Label.Text" xml:space="preserve">
+    <value>Critical Fan Multiplier (%)</value>
+  </data>
+  <data name="CooldownHighTemp_Label.Text" xml:space="preserve">
+    <value>Cooldown High Temp (°C)</value>
+  </data>
+  <data name="CooldownLowTemp_Label.Text" xml:space="preserve">
+    <value>Cooldown Low Temp (°C)</value>
+  </data>
+  <data name="CheckInterval_Label.Text" xml:space="preserve">
+    <value>Check Interval (seconds)</value>
+  </data>
+  <data name="EmergencyControl_Title.Text" xml:space="preserve">
+    <value>Emergency Fan Control</value>
+  </data>
+  <data name="EmergencyControl_Toggle.OffContent" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="EmergencyControl_Toggle.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Notification_CriticalTemp_Title" xml:space="preserve">
+    <value>Critical Temperature Alert</value>
+  </data>
+  <data name="Notification_CriticalTemp_Body" xml:space="preserve">
+    <value>CPU temperature has exceeded {0}°C. Fan speed set to {1}%.</value>
+  </data>
+  <data name="CommunicatingWithIdrac" xml:space="preserve">
+    <value>Communicating with iDRAC...</value>
+  </data>
+  <data name="CpuTempSeries_Name" xml:space="preserve">
+    <value>CPU Temperature</value>
+  </data>
+  <data name="NoFanInfoFound" xml:space="preserve">
+    <value>No fan information found</value>
+  </data>
+  <data name="FetchingFanInfo" xml:space="preserve">
+    <value>Fetching fan info...</value>
+  </data>
+  <data name="FetchInfoFailed" xml:space="preserve">
+    <value>Failed to fetch info</value>
+  </data>
+  <data name="TempSource_Title.Text" xml:space="preserve">
+    <value>CPU Temperature Source</value>
+  </data>
+  <data name="TempSource_CoreTemp.Content" xml:space="preserve">
+    <value>Sync from CoreTemp</value>
+  </data>
+  <data name="TempSource_Sockets.Content" xml:space="preserve">
+    <value>Get from Sockets</value>
+  </data>
+  <data name="TempSource_Independent.Content" xml:space="preserve">
+    <value>Independent Reading (requires administrator rights)</value>
+  </data>
+  <data name="AppBehavior_Title.Text" xml:space="preserve">
+    <value>Application Behavior</value>
+  </data>
+  <data name="MinimizeToTray_Toggle.Header" xml:space="preserve">
+    <value>Minimize to tray</value>
+  </data>
+  <data name="MinimizeToTray_Toggle.OffContent" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="MinimizeToTray_Toggle.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="RunOnStartup_Toggle.Header" xml:space="preserve">
+    <value>Run on startup</value>
+  </data>
+  <data name="RunOnStartup_Toggle.OffContent" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="RunOnStartup_Toggle.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Save_Button.Content" xml:space="preserve">
+    <value>Save and Apply</value>
+  </data>
+  <data name="Theme_Title.Text" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Theme_System.Content" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Theme_Light.Content" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Theme_Dark.Content" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="AppTitle_Server.Text" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="AppTitle_ThermalManager.Text" xml:space="preserve">
+    <value>Thermal Manager</value>
+  </data>
+  <data name="AppTitle_ProgrammedFanTweaker.Text" xml:space="preserve">
+    <value>⌈ProgrammedFanTweaker⌋</value>
+  </data>
+</root>
